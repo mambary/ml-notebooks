@@ -48,7 +48,7 @@ The methodology employed categorizes companies based on their primary focus or o
 ### API/Inference Providers
 
 - [OpenRouter](https://openrouter.ai/): API
-- [Replicate](https://replicate.com/): API, GPU, Custom  
+- [Replicate](https://replicate.com/): API, GPU, Custom
 - [Groq.AI](https://groq.com/): API  
 - [Together AI](https://together.xyz/): API, FT, Custom, GPU  
 - [Novita.ai](https://novita.ai/): API, GPU 
@@ -70,6 +70,8 @@ The methodology employed categorizes companies based on their primary focus or o
 - [Cursor](https://www.cursor.com/): Dev
 - [Cognition Labs](https://www.cognitionlabs.ai/): Dev  
 
+Platforms like Bolt, Replit Agent, Vercel V0 use agentic workflows to improve code quality. They also help deploy generated applications. 
+
 Other tools related:
 
 - Llama Stack developed by Meta is a collection of APIs that standardize the building blocks necessary for developing generative AI applications.
@@ -78,14 +80,18 @@ Other tools related:
 ### Deployment Tools and Platforms
 
 - [Vercel](https://vercel.com/): Dev, Dep (V0 by Vercel generates UI from text)
+- Open WebUI: Dep (Manage and deploy AI models locally. UI for interacting with various LLMs. Integrate with LLM runners like Ollama and OpenAI-compatible APIs)
 
 ### Libraries and Frameworks
 
+- Ollama, vLLM: tool designed to run LLMs locally. It can be used with [Chatbox.ai](https://chatboxai.app) app desktop, mobile and web-based app.
+- unsloth (Daniel Han), torchtune, Oxolotl: Fast Training (Pre/FT related).  They enhance the speed and efficiency of LLM fine-tuning.
+- LiteLLM: LiteLLM is an open-source Python library designed to streamline interactions with a wide range of LLMs by providing a unified interface.
+- [ai-gradio](https://github.com/AK391/ai-gradio): A Python package that makes it easy for developers to create machine learning apps powered by various AI providers. Built on top of Gradio, it provides a unified interface for multiple AI models and services.
 - [DSPy](https://dspy.ai/): Dev (Provides a programming model for developing and optimizing language model pipelines)  
-- [Oxolotl (Daniel Han)](https://github.com/danielhan/oxolotl): Fast Training (Pre/FT related)  
 - [Torchrun](https://pytorch.org/docs/stable/elastic/torchrun.html): Dev  
 - [Cog (by Replicate)](https://github.com/replicate/cog): Packaging Custom ML Models for Deployment (Custom, Dep)  
-- [ComfyUI](https://comfyui.org/): GUI for Workflow (Dev)  
+- [ComfyUI](https://comfyui.org/): Dev (GUI for Workflow)  
 - [Tinygrad](https://github.com/geohot/tinygrad): Dev  
 - Agentic AI systems: [LangChain](https://langchain.com), [CrewAI](https://docs.crewai.com), LlamaIndex, Haystack, [Devin](https://www.devin.com)  
 - [OpenHands](https://openhands.ai): Dev (providing frameworks for building AI-driven applications with agentic capabilities)  

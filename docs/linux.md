@@ -16,6 +16,7 @@ Linux distributions typically follow the Filesystem Hierarchy Standard (FHS), wh
   - **/var/log**: Log files.
 - **/opt**: Optional or third-party software, often self-contained packages.
 - **/lib**, **/lib64**: Core system libraries (for `/bin` and `/sbin`).
+- **$HOME/.config/autostart**: Applications that run at startup for a specific user. Similar to `systemctl`, but `autostart` is for user-specific applications, whereas systemctl manages system-wide services.
 
 When you install packages using a package manager like `apt`, the files typically go into these shared directories depending on their type:
 
@@ -54,6 +55,7 @@ These directories are accessible system-wide, so all users on the system can use
 | `readlink -f [path]`             | Display the absolute path, resolving all symbolic links.                    |
 | `ln [target] [link_name]`        | Create a hard link to a file.                                               |
 | `ln -s [target] [link_name]`     | Create a symbolic (soft) link to a file or directory.                       |
+| `lsb_release -a`                 | Show Linux version info. If not installed, run `cat /etc/os-release`.       |    
 
 #### File Permissions and Ownership
 
@@ -174,6 +176,7 @@ rsync -avz /path/to/local/directory/ user@remote_host:/path/to/remote/directory/
 rsync -avz user@remote_host:/path/to/remote/directory/ /path/to/local/directory/
 
 # Find the process ID(s) of a running program:
+# pgrep -ifa porcesss_name: -i: ingore case, -f only process id, -a: full command, similar to ps aux | grep process name
 pgrep process_name
 
 # Find processes by user:
@@ -190,4 +193,10 @@ ln -s myfile.txt my_link
 
 # To unzip a file to a specific location
 unzip filename.zip -d /path/to/destination
+
+# Save both standard output and error to a file. The output is also displayed on the screen.
+# tee: Copy standard input to each FILE, and also to standard output.
+# 2>&1: redirects stderr (2) to stdout (1).
+your_command > output.txt 2>&1
+your_command 2>&1 | tee output.txt
 ```
