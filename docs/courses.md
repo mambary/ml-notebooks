@@ -14,8 +14,9 @@ Deep Learning 1, Deep Learning 2, Computer Vision 1, Computer Vision 2 (mainly 3
 - [Photogrammetry I & II by Cyrill Stachniss](https://www.youtube.com/playlist?list=PLgnQpQtFTOGRYjqjdZxTEQPZuFHQa7O7Y): Contains both tranditional and deep-learning based computer vision in 2D and 3D.
 - [Computer Vision by Andreas Geiger](https://www.youtube.com/playlist?list=PL05umP7R6ij35L2MHGzis8AEHz7mg381_): Contains both tranditional and deep-learning based 2D and 3D computer vision.
 - [EfficientML.ai Lecture, Fall 2023, MIT 6.5940](https://www.youtube.com/playlist?list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB)
-
-
+# Books
+- [Deep Learning by Ian Goodfellow, Yoshua Bengio and Aaron Courville](https://www.deeplearningbook.org/). A book for university students (graduate and undergraduate), those who are beginning a career in deep learning and artiﬁcial intelligence research, and  software engineers who do not have a machine learning or statistics background but want to rapidly acquire one and begin using deep learning in their product or platform.
+- [Computer vision: Algorithms and Applications, 2nd ed.](https://szeliski.org/Book/). A comprehensive and authoritative textbook/reference that explores the variety of techniques commonly used to analyze and interpret images, and describes challenging real-world applications where vision is being successfully used, both for specialized applications such as medical imaging, and for fun, consumer-level tasks such as image editing and stitching, which students can apply to their own personal photos and videos.
 #### Traditional Computer Vision
 
 - [Photogrammetric Computer Vision by Cyrill Stachniss](https://www.youtube.com/playlist?list=PLgnQpQtFTOGTPQhKBOGgjTgX-mzpsOGOX)
